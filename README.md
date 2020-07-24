@@ -43,6 +43,10 @@
 Caso houver um eventual erro no processo de instalação da aplicação, execute <code>yarn --network-timeout 1000000</code>. Isso se deve ao fato que o <i>Styled-Icons</i> contém alguns pacotes pesados de ícones. Após baixado, o Styled-Icons rodará normalmente.
 </p>
 
+<h2>Veja também</h2>
+
+- <a href="https://github.com/dougpessoa/poketime">Pokétime</a>
+- <a href="https://github.com/dougpessoa/pokemarino">Pokémarino</a>
 
 <hr />
 <p align="center">Projeto feito integralmente por Douglas Pessoa</p>
