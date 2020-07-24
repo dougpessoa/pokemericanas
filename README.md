@@ -1,44 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Pokémericanas</h1>
 
-## Available Scripts
+<div align="center">
+   <img src="https://i.ibb.co/DL53bFL/wireframe-pokemericanas.jpg" />
+</div>
+<hr />
+<p align="center">
+  <a  href="https://www.linkedin.com/in/douglaspessoa/"  target="_blank">
+    <img  src="https://img.shields.io/badge/desenvolvedor-Douglas%20Pessoa-yellowgreen"  alt="Douglas Pessoa">
+  </a>
 
-In the project directory, you can run:
+  <img src="https://img.shields.io/badge/framework-ReactJS-60DBFB" alt="ReactJS">
+  <img src="https://img.shields.io/badge/linguagem-TypeScript-007ACC" alt="TypeScript">
+<img src="https://img.shields.io/badge/API-PokéAPI-EF5350" alt="PokéAPI">
+  <img src="https://img.shields.io/badge/CSS--In--JS-Styled%20Components-ee00ff" alt="Styled Components">
+</p>
 
-### `yarn start`
+<p align="center">Para ver a demonstração do projeto, clique <a href="https://pokemericanas.netlify.app/">aqui</a>.</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2>Sobre o projeto</h2>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<p>
+  Essa aplicação é uma mini-loja de Pokémon de fogo, se baseando na <a 
+  href="https://americanas.com.br">Americanas.com</a>. Todo o processo assíncrono é buscando na API de Pokémon da <a href="https://pokeapi.co/">PokéAPI</a>. Os valores listados são gerados aleatoriamente e todos os processos de adicionar ou remover são alocados no Local Storage do navegador.  
+</p>
 
-### `yarn test`
+<h2>Instalação</h2>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Certifique-se de tenha instalado <a href="https://nodejs.org/en/" target="_target">NodeJS</a> e <a href="https://yarnpkg.com/">Yarn</a>, caso não tenha, clique nos nomes citados e instale, é bem simples a instação!
+- Abra o terminal e execute o comando: <code>git clone  https://github.com/dougpessoa/pokemericanas.git</code>
+- Após a finalização do download, execute no terminal: <code>yarn</code>
+- E para rodar o projeto, execute no terminal: <code>yarn start</code>
 
-### `yarn build`
+<h2>Dependências trabalhadas</h2>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> Axios
+> Styled-Components
+> Styled-Icons
+> Uuidv4
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<h3>Observações</h3>
+<p>
+Caso houver um eventual erro no processo de instalação da aplicação, execute <code>yarn --network-timeout 1000000</code>. Isso se deve ao fato que o <i>Styled-Icons</i> contém alguns pacotes pesados de ícones. Após baixado, o Styled-Icons roda normalmente.
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<hr />
+<p align="center">Projeto feito integralmente por Douglas Pessoa</p>

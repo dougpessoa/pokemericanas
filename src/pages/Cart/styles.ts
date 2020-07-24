@@ -27,8 +27,7 @@ export const Cover = styled.div<Props>`
   width: 100%;
   max-width: 1440px;
   height: 500px;
-
-
+  
   background-image: ${
     (props) => props.isEmpty 
       ? `url(${background})`
