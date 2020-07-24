@@ -21,26 +21,26 @@
 
 <p>
   Essa aplicação é uma mini-loja de Pokémon de fogo, se baseando na <a 
-  href="https://americanas.com.br">Americanas.com</a>. Todo o processo assíncrono é buscando na API de Pokémon da <a href="https://pokeapi.co/">PokéAPI</a>. Os valores listados são gerados aleatoriamente e todos os processos de adicionar ou remover são alocados no Local Storage do navegador.  
+  href="https://americanas.com.br">Americanas.com</a>. Todo o processo assíncrono é buscando na API de Pokémon da <a href="https://pokeapi.co/">PokéAPI</a>. Os preços listados são gerados aleatoriamente e todos os processos de adicionar ou remover são alocados no Local Storage do navegador.  
 </p>
 
 <h2>Instalação</h2>
 
-- Certifique-se de tenha instalado <a href="https://nodejs.org/en/" target="_target">NodeJS</a> e <a href="https://yarnpkg.com/">Yarn</a>, caso não tenha, clique nos nomes citados e instale, é bem simples a instação!
+- Certifique-se de tenha instalado <a href="https://nodejs.org/en/" target="_target">Node.js</a> e <a href="https://yarnpkg.com/">Yarn</a>, caso não tenha, clique nos nomes citados e instale, é bem simples a instalação!
 - Abra o terminal e execute o comando: <code>git clone  https://github.com/dougpessoa/pokemericanas.git</code>
 - Após a finalização do download, execute no terminal: <code>yarn</code>
-- E para rodar o projeto, execute no terminal: <code>yarn start</code>
+- E para rodar o projeto execute no terminal: <code>yarn start</code>
 
 <h2>Dependências trabalhadas</h2>
 
-> Axios
-> Styled-Components
-> Styled-Icons
-> Uuidv4
+- Axios
+- Styled-Components
+- Styled-Icons
+- Uuidv4
 
 <h3>Observações</h3>
 <p>
-Caso houver um eventual erro no processo de instalação da aplicação, execute <code>yarn --network-timeout 1000000</code>. Isso se deve ao fato que o <i>Styled-Icons</i> contém alguns pacotes pesados de ícones. Após baixado, o Styled-Icons roda normalmente.
+Caso houver um eventual erro no processo de instalação da aplicação, execute <code>yarn --network-timeout 1000000</code>. Isso se deve ao fato que o <i>Styled-Icons</i> contém alguns pacotes pesados de ícones. Após baixado, o Styled-Icons rodará normalmente.
 </p>
 
 
