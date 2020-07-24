@@ -4,13 +4,14 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
   position: fixed;
-  z-index: 6;
+  z-index: 8;
 
   background: rgba(0, 0, 0, 0.3);
 
   display: flex;
   justify-content: center;
   align-items: center;
+
 `;
 
 export const Content = styled.div`
@@ -25,6 +26,7 @@ export const Content = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 
   p {
     text-align: center;
@@ -34,6 +36,9 @@ export const Content = styled.div`
   small {
     position: absolute;
     bottom: 10px;
-    
+  }
+
+  @media (max-width: 549px) {
+    width: 91%;
   }
 `;
